@@ -15,7 +15,7 @@ It supports both **read and write operations**, verified using a **testbench** a
 2. Compile:
    ```bash
    vlog memory_project.v tb.v
-   vsim tb +test_name=1WR_1RD
+   vsim tb +test_name=CONSECUTIVE
    run  -all
 3. similarly do it for all test cases during compilation
 4. simulate the output waveform using modelsim/questasim
